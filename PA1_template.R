@@ -1,5 +1,4 @@
-setwd("/Users/michellecipullo/Desktop/Coursera_DataScience/ReproducibleResearch/Assignment1/")
-
+rm(list=ls())
 data<-read.csv("activity.csv",colClasses = c("integer","Date","integer")) #steps (integer), date (date), interval (integer)
 
 #1.Calculate the number of steps taken per day
